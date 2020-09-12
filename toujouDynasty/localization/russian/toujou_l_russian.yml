@@ -1,0 +1,8 @@
+﻿l_russian:
+
+ become_toujou_dynasty_decision_title:0 "Принять династию Тоджо"
+ become_toujou_dynasty_decision_desc:0 "Вы станите представителем династии Тоджо - белые волосы, своя религия, свой дом"
+ become_toujou_dynasty_decision_confirm:0 "Принять свою судьбу"
+ trait_toujou_dynasty_trait:0 "Династия Тоджо"
+ trait_toujou_dynasty_desc:0 "Этот персонаж - представитель древней династии Тоджо"
+ trait_toujou_dynasty_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] - представитель древней династии Тоджо"

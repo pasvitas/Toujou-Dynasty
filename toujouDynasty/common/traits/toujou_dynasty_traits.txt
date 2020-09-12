@@ -1,0 +1,39 @@
+toujou_dynasty_trait = {
+	index = 232323
+	diplomacy = 1
+	martial = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	prowess = 1
+	health = 0.1
+    good = yes
+	
+	genetic = yes
+	inherit_chance = 50
+	both_parent_has_trait_inherit_chance = 100
+	birth = 0
+	random_creation = 0
+	
+	attraction_opinion = 10
+    general_opinion = 5
+    close_relative_opinion = 10
+
+    icon = {
+		first_valid = {
+			desc = pure_blooded.dds
+		}
+	}
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_toujou_dynasty_desc
+			}
+			desc = trait_toujou_dynasty_character_desc
+		}
+	}
+}

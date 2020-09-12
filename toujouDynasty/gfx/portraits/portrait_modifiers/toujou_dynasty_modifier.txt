@@ -1,0 +1,20 @@
+toujou_dna_change_modifiers = {
+    usage = game
+    toujou_dna_change_modifier = {
+        dna_modifiers = {
+            color = {
+                mode = replace
+                gene = hair_color
+                x = 0
+                y = 0
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 100
+                has_trait = toujou_dynasty_trait
+            }
+        }   
+    }
+}

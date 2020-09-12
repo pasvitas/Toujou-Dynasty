@@ -1,0 +1,20 @@
+become_toujou_dynasty = {
+    picture = gfx/interface/illustrations/decisions/decision_personal_religious.dds
+
+    title = become_toujou_dynasty_decision_title
+    desc = become_toujou_dynasty_decision_desc
+    confirm_text = become_toujou_dynasty_decision_confirm
+
+    is_shown = {
+	    NOT = { has_trait = toujou_dynasty_trait }
+    }
+
+    effect = {
+        add_trait = toujou_dynasty_trait
+        every_child = {
+			add_trait = toujou_dynasty_trait
+		}
+    }
+
+    ai_will_do = 0
+}
